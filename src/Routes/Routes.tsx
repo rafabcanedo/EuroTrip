@@ -5,10 +5,12 @@ import Italy from '../Pages/Italy/Italy'
 import France from '../Pages/France/France'
 import Roma from '../Pages/Italy/Roma/Roma'
 import Paris from '../Pages/France/Paris/Paris'
+import { Navbar } from '../components/Navbar'
 
 export default function AppRouter() {
   return (
     <Router>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/italy" element={<Italy />} />
