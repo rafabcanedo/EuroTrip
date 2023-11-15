@@ -11,6 +11,8 @@ export default {
       colors: {
         background: '#E7EAF6',
         title: '#52525b',
+        button: '#facf5a',
+        hoverbutton: '#ffc93c',
       },
     },
   },

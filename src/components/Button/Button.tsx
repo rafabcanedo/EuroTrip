@@ -3,7 +3,7 @@ import { ComponentProps } from 'react'
 import { VariantProps, tv } from 'tailwind-variants'
 
 const button = tv({
-  base: 'flex items-center justify-center text-sm rounded bg-[#7c73e6] font-medium text-zinc-900 hover:bg-[#756cdd]',
+  base: 'flex items-center justify-center text-sm rounded bg-button font-medium text-zinc-900 hover:bg-hoverbutton',
   variants: {
     size: {
       default: 'h-10 px-4',
