@@ -1,10 +1,12 @@
-import { CountryIcon } from '../../components/CountriesMap/CountryIcon/CountryIcon'
+import { CardRoadmap } from '../../components/CardCountry/CardRoadmap/CardRoadmap'
 
 export default function Roadmap() {
   return (
-    <div>
-      <h1>Roadmap</h1>
-      <CountryIcon />
+    <div className="flex flex-col items-center justify-center mt-12">
+      <h1 className="text-title text-4xl font-semibold underline decoration-button">
+        Roadmap
+      </h1>
+      <CardRoadmap />
     </div>
   )
 }
