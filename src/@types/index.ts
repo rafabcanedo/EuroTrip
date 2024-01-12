@@ -9,3 +9,9 @@ export interface CardRoadmapProps {
   icon: ElementType
   title: string
 }
+
+export interface CardPlaceProps {
+  name: string
+  image: string
+  address: string
+}

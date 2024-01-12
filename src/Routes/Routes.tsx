@@ -8,6 +8,8 @@ import Perugia from '../Pages/Italy/Perugia/Perugia'
 import Roadmap from '../Pages/Roadmap/Roadmap'
 import Spain from '../Pages/Spain/Spain'
 import Madrid from '../Pages/Spain/Madrid/Madrid'
+import MRestaurants from '../Pages/Spain/Madrid/Restaurants'
+import MPlaces from '../Pages/Spain/Madrid/Places'
 import Barcelona from '../Pages/Spain/Barcelona/Barcelona'
 
 export default function AppRouter() {
@@ -22,6 +24,8 @@ export default function AppRouter() {
         <Route path="/italy/perugia" element={<Perugia />} />
         <Route path="/spain" element={<Spain />} />
         <Route path="/spain/madrid" element={<Madrid />} />
+        <Route path="/spain/madrid/restaurants" element={<MRestaurants />} />
+        <Route path="/spain/madrid/places" element={<MPlaces />} />
         <Route path="/spain/barcelona" element={<Barcelona />} />
       </Routes>
     </Router>

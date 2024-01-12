@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Logo from '../../assets/logo-eurotrip.svg'
 import { X, AlignLeft } from 'lucide-react'
 import { Button } from '../Button/Button'
+import { Link } from 'react-router-dom'
 
 export function Navbar() {
   const [open, setOpen] = useState(false)
@@ -34,7 +35,9 @@ export function Navbar() {
           }`}
         >
           <div className="mt-2">
-            <Button>Roadmap</Button>
+            <Link to="/roadmap">
+              <Button>Roadmap</Button>
+            </Link>
           </div>
         </ul>
       </nav>

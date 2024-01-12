@@ -1,3 +1,4 @@
+import { Pizza, Croissant, Salad, Utensils } from 'lucide-react'
 import { CardRoadmap } from '../../components/CardCountry/CardRoadmap/CardRoadmap'
 
 export default function Roadmap() {
@@ -6,7 +7,12 @@ export default function Roadmap() {
       <h1 className="text-title text-4xl font-semibold underline decoration-button">
         Roadmap
       </h1>
-      <CardRoadmap />
+      <div className="flex flex-col gap-2 mt-8">
+        <CardRoadmap title="Italy" icon={Pizza} />
+        <CardRoadmap title="France" icon={Croissant} />
+        <CardRoadmap title="Netherlands" icon={Salad} />
+        <CardRoadmap title="Spain" icon={Utensils} />
+      </div>
     </div>
   )
 }

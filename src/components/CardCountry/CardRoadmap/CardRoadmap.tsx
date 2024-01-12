@@ -1,39 +1,22 @@
-import { Pizza, Croissant, Salad, Utensils } from 'lucide-react'
 import { ButtonRoadmap } from '../../ButtonsVariants/ButtonRoadmap'
+import { CardRoadmapProps } from '../../../@types'
 
-export function CardRoadmap() {
+export function CardRoadmap({ icon: Icon, title }: CardRoadmapProps) {
   return (
-    <div>
+    <div className="bg-neutral-200 w-80 h-32 rounded">
       <div>
         <div className="flex flex-row items-center justify-center gap-2">
-          <Pizza className="text-yellow-300" />
-          <h1 className="text-title font-signika text-2xl">Italia</h1>
+          <Icon className="text-yellow-300" />
+          <h1 className="text-title font-signika text-2xl">{title}</h1>
         </div>
-        <ButtonRoadmap />
-      </div>
-
-      <div>
-        <div className="flex flex-row items-center justify-center gap-2">
-          <Croissant className="text-yellow-300" />
-          <h1 className="text-title font-signika text-2xl">Franch</h1>
+        <div className="flex items-center justify-center mt-4">
+          <button className="bg-hoverbutton px-4 h-6 rounded-lg font-mono">
+            Know More
+          </button>
         </div>
-        <ButtonRoadmap />
-      </div>
-
-      <div>
-        <div className="flex flex-row items-center justify-center gap-2">
-          <Salad className="text-yellow-300" />
-          <h1 className="text-title font-signika text-2xl">Netherlands</h1>
+        <div className="flex items-center justify-center mt-4">
+          <ButtonRoadmap />
         </div>
-        <ButtonRoadmap />
-      </div>
-
-      <div>
-        <div className="flex flex-row items-center justify-center gap-2">
-          <Utensils className="text-yellow-300" />
-          <h1 className="text-title font-signika text-2xl">Spain</h1>
-        </div>
-        <ButtonRoadmap />
       </div>
     </div>
   )
