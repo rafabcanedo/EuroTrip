@@ -4,12 +4,12 @@ import { CardPlace } from '../../components/CardPlace/CardPlace'
 
 export default function Spain() {
   return (
-    <section>
+    <section className="md:pl-6 pr-6">
       <div>
         <h3 className="text-title font-signika text-2xl">Our Home</h3>
       </div>
-      <div>
-        <span className="text-title font-signika text-2xl">
+      <div className="flex flex-col justify-center md:pl-6">
+        <span className="text-title font-signika text-2xl underline decoration-button pl-4">
           Important Places
         </span>
         <div className="flex flex-col gap-4">
@@ -29,14 +29,16 @@ export default function Spain() {
             address="Pl. Mayor, Centro, 28012 Madrid"
           />
         </div>
-        <div>
+        <div className="flex w-96 justify-end">
           <Link to="/spain/madrid/places">
-            <span>Know More</span>
+            <span className="text-title font-signika hover:underline hover:decoration-button">
+              Know More
+            </span>
           </Link>
         </div>
       </div>
-      <div>
-        <span className="text-title font-signika text-2xl">
+      <div className="flex flex-col justify-center md:pl-6">
+        <span className="text-title font-signika text-2xl underline decoration-button">
           Delicious Restaurants
         </span>
         <div className="flex flex-col gap-4">
@@ -56,17 +58,19 @@ export default function Spain() {
             address="Pl. Mayor, Centro, 28012 Madrid"
           />
         </div>
-        <div>
+        <div className="flex w-96 justify-end">
           <Link to="/spain/madrid/restaurants">
-            <span>Know More</span>
+            <span className="text-title font-signika hover:underline hover:decoration-button">
+              Know More
+            </span>
           </Link>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center mt-12">
         <span className="text-title font-signika text-2xl">
           Cities in Spain
         </span>
-        <div className="flex flex-row gap-2">
+        <div className="flex flex-row gap-2 mb-12">
           <Link to="/spain/madrid">
             <Button size="lg">Madrid</Button>
           </Link>
