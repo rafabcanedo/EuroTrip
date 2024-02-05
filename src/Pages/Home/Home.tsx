@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom'
 import Logo from '../../assets/logo.jpg'
 import { Button } from '../../components/Button/Button'
-import { ButtonList } from '../../components/ButtonsVariants/ButtonList'
 
 export default function Home() {
   return (
@@ -21,7 +20,18 @@ export default function Home() {
           className="rounded"
         />
       </div>
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center px-6">
+        <span className="font-sans text-title text-xl">
+          Todos a bordo e vamos para a nossa viagem dos sonhos
+        </span>
+        <span className="font-sans text-title text-xl">
+          I building this website for help us in all the time, It will help us
+          in our roadmap like a restaurants and importants places what we want
+          to go. All the website is very explicit with roules, names, locality
+          and more importante food 🤣🤣
+        </span>
+      </div>
+      <div className="flex flex-col items-center justify-center mt-12">
         <span className="font-bebas text-title text-lg">
           start here, some options for negavigation
         </span>
@@ -33,9 +43,6 @@ export default function Home() {
             <Button size="xl">Todo List</Button>
           </Link>
         </div>
-      </div>
-      <div className="flex w-96 justify-end mr-4">
-        <ButtonList />
       </div>
     </section>
   )

@@ -9,16 +9,18 @@ export function Navbar() {
   return (
     <div className="w-full h-16 bg-red-300">
       <nav className="flex flex-row items-center justify-between px-12">
-        <div className="flex flex-row items-center gap-2 mt-2">
-          <img src={Logo} alt="logo eurotrip" />
-          <img
-            src="https://img.freepik.com/vetores-premium/bonito-espaguete-macarrao-cartoon-vetor-icone-ilustracao-alimento-objeto-icone-conceito-isolado-vetor-plano_138676-9773.jpg?w=2000"
-            width="50"
-            height="50"
-            alt="seila"
-            className="rounded-full"
-          />
-        </div>
+        <Link to="/">
+          <div className="flex flex-row items-center gap-2 mt-2">
+            <img src={Logo} alt="logo eurotrip" />
+            <img
+              src="https://img.freepik.com/vetores-premium/bonito-espaguete-macarrao-cartoon-vetor-icone-ilustracao-alimento-objeto-icone-conceito-isolado-vetor-plano_138676-9773.jpg?w=2000"
+              width="50"
+              height="50"
+              alt="seila"
+              className="rounded-full"
+            />
+          </div>
+        </Link>
 
         <div
           onClick={() => setOpen(!open)}

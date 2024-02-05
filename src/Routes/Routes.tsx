@@ -17,6 +17,7 @@ import MPlaces from '../Pages/Spain/Madrid/Places'
 import Barcelona from '../Pages/Spain/Barcelona/Barcelona'
 import BRestaurants from '../Pages/Spain/Barcelona/Restaurants'
 import BPlaces from '../Pages/Spain/Barcelona/Places'
+import Footer from '../components/Footer'
 
 export default function AppRouter() {
   return (
@@ -37,6 +38,7 @@ export default function AppRouter() {
         <Route path="/spain/barcelona/restaurans" element={<BRestaurants />} />
         <Route path="/spain/barcelona/places" element={<BPlaces />} />
       </Routes>
+      <Footer />
     </Router>
   )
 }
