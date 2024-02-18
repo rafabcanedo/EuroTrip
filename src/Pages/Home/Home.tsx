@@ -28,7 +28,7 @@ export default function Home() {
           I building this website for help us in all the time, It will help us
           in our roadmap like a restaurants and importants places what we want
           to go. All the website is very explicit with roules, names, locality
-          and more importante food 🤣🤣
+          and more important food 🤣🤣
         </span>
       </div>
       <div className="flex flex-col items-center justify-center mt-12">
