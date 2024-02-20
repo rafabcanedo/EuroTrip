@@ -1,6 +1,6 @@
 export function CardHome() {
   return (
-    <div className="w-96 h-96 bg-[#d8dae6] rounded">
+    <div className="w-96 h-[400px] bg-[#d8dae6] rounded">
       <div>
         <img
           src="https://a0.muscache.com/im/pictures/f013ce16-ed1c-427e-8558-806532f02a7b.jpg?im_w=960"
@@ -9,13 +9,13 @@ export function CardHome() {
           height={400}
         />
       </div>
-      <div>
+      <div className="flex flex-row items-center justify-center">
         🗺️
         <span className="text-zinc-700 font-signika ml-2">
           Calle de Monteleón, 48, Madri
         </span>
       </div>
-      <div className="flex flex-col">
+      <div className="flex flex-col items-center justify-center mt-2">
         <div>
           <span className="font-signika text-title">Check-in</span>
           <p>sáb, 24 de fev.</p>

@@ -47,19 +47,19 @@ export default function Madrid() {
         </span>
         <div className="flex flex-col gap-4">
           <CardPlace
-            image="https://upload.wikimedia.org/wikipedia/commons/4/44/Plaza_Mayor_de_Madrid_06.jpg"
-            name="Plaza Mayor"
-            address="Pl. Mayor, Centro, 28012 Madrid"
+            image="https://media-cdn.tripadvisor.com/media/photo-s/0f/38/04/7c/puerta-de-entrada-al.jpg"
+            name="Mu Restaurant"
+            address="Calle de Chinchilla, 3, Centro, Madrid"
           />
           <CardPlace
-            image="https://upload.wikimedia.org/wikipedia/commons/4/44/Plaza_Mayor_de_Madrid_06.jpg"
-            name="Plaza Mayor"
-            address="Pl. Mayor, Centro, 28012 Madrid"
+            image="https://media-cdn.tripadvisor.com/media/photo-s/07/83/2b/8f/la-carmela.jpg"
+            name="La Carmella"
+            address="C. de la Victoria, 4, LOCAL 1, Centro, Madrid"
           />
           <CardPlace
-            image="https://upload.wikimedia.org/wikipedia/commons/4/44/Plaza_Mayor_de_Madrid_06.jpg"
-            name="Plaza Mayor"
-            address="Pl. Mayor, Centro, 28012 Madrid"
+            image="https://images.schlouk-map.com/cache/gallery/uploads/images/places/casa-lucio-6409c24111afb1.33120930.PNG"
+            name="Casa Lucio"
+            address="C. de la Cava Baja, 35, Centro, Madrid"
           />
         </div>
         <div className="flex w-96 justify-end">
